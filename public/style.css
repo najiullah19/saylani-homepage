@@ -1,0 +1,468 @@
+
+fieldset{ display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blue;
+    color: white;
+    flex-wrap: wrap;
+    height: 50px;
+    
+
+    
+}
+.million{
+    position: absolute;
+    top: 20px;
+    left: 450px;
+}
+.fb,.tw,.insta,.yt,.whats{
+    display: inline-flexbox;
+    flex-direction: row;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    padding: 3px;
+}
+.b{
+    display: inline-flex;
+}
+    
+.carousel slide{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.uk{
+    
+    position:relative;
+    left: 77%;
+   bottom:25px;
+    margin: 5px auto;
+    height: 30px;
+    cursor: pointer;
+}
+.fixed{
+    display:flexbox;
+    justify-content: right;
+    position: fixed;
+    top: 78px;
+    right: 0px;
+    left: 0px;
+    background-color: whitesmoke;
+    
+}
+
+.home,.about,.saylanis,.future,.media,.news,.donation{
+    position: relative;
+    left: 500px;
+    margin: 20px auto;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.home{
+    background-color: blue;
+    color: white;
+}
+
+.about:hover,.saylanis:hover,.future:hover,.media:hover,.news:hover,.donation:hover{
+    color: white;
+    background-color:blue;
+}
+.row{
+    cursor: pointer;
+}
+
+.nav-item{
+    display: flexbox;
+}
+.piaic{
+    height: 20px;
+}
+
+
+
+
+.para{
+    display:flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    line-height: 25px;
+    
+}
+
+.blue{
+    color: blue;
+    display: inline;
+}
+.green{
+    color: green;
+    display: inline;
+}
+
+
+
+
+
+
+.color{
+    background-color: blue;
+    color: white;
+}
+.body{
+    background-color: blue;
+    color: white;
+}
+.we{
+    color: blue;
+    display: inline;
+}
+.are{
+    color: green;
+    display: inline;
+
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    
+    flex-flow: wrap;
+}
+
+
+
+.boxa,.boxb,.boxc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:whites;
+    color: black;
+    width: 300px;
+    height: 175 px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    display: inline-block;
+    margin: 10px 10px 10px auto;
+    padding-top: 40px;
+     cursor: pointer;
+}
+.boxa{
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    right: 100px;
+}
+.boxb{
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    left: 500px;
+}
+.boxc{
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    left: 110px;
+}
+ .back{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+
+
+.backa,.backb,.backc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:white;
+    color: black;
+    width: 300px;
+    height: 175 px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    display: inline-block;
+    margin: 10px 10px 10px auto;
+    padding-top: 40px;
+    cursor: pointer;
+
+}
+
+
+.backa{
+    height: 150px;
+    width: 350px;
+    
+    position: absolute;
+    left: 890px;
+}
+.backb{ 
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    left: 500px;
+    
+}
+.backc{
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    left: 110px;
+} 
+
+.alto{
+    color: blue;
+    font-size: larger;
+}
+.scroll{
+    color: blue;
+}
+
+
+
+.table{
+
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+    height: 300px;
+    margin: 40px;
+   
+}
+.tr{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+.four{
+    display:flexbox ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: bolder;
+     position: absolute;
+    right: 120px;
+    text-align: center;
+    margin: 40px;
+}
+.three{
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: bolder;
+    position: absolute;
+    right: 400px;
+    text-align: center;
+    margin: 40px;
+}
+
+.two{
+    font-size: 15px;
+    font-weight: bolder;
+    position: absolute;
+    right: 650px;
+    text-align: center;
+    margin: 40px;
+    
+}
+.one{
+    font-weight: bolder; 
+    font-size: 15px;
+    position: absolute;
+    left: 70px;
+    text-align: center;
+    margin: 40px;
+    
+}
+li{
+    text-align: center;
+}
+
+ 
+
+
+.mission,.project{
+    display: inline-block;
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: lightgrey;
+    width: 300px;
+    height: 80px;
+    color: blue;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 20px;
+    bottom: 150px;
+}
+
+.it,.thar{
+    display: inline-block;
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: lightgrey;
+    width: 300px;
+    height: 80px;
+    color: blue;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 20px;
+    bottom: 150px;
+
+
+}
+.event{
+    border: 1px solid white;
+    width: 200px;
+    height: 50%;
+    position: absolute;
+    right: 400px;
+    top: 2230px;
+    
+}
+.and{ position: absolute;
+    top: 2200px;
+    color: blue;
+    font-size: larger;
+}
+.upcoming{
+    color: blue;
+    position: relative;
+   left: 750px;
+   bottom:500px;
+}
+
+
+
+
+
+.premiry,.higher{
+    background-color: lightgray;
+    color: black;
+    width: 200px;
+    height: 150px;
+    border: 1px solid lightslategray;
+    box-shadow: 10px 10px 10px gray;
+    display: inline-block;
+    margin: 10px 10px 10px;
+}
+
+
+.footer{
+   height: 400px;
+    background-color: black;
+    color: lightgray;
+}
+
+.fieldset{
+    margin: 60px 60px 60px 60px;
+    line-height: 15px;
+}
+
+.high{
+    vertical-align: 50px;
+    text-align: center;
+}
+.hold{
+    color: blue;
+    display: inline;
+}
+.gallery{
+    color: green;
+    display: inline;
+}
+
+
+
+.right,.facebook{
+    text-align: right;
+    margin-right: 20px 10px 20px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.high{
+    position: relative;
+    bottom: 250px;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+
+.right{ 
+    position: relative;
+    bottom: 330px;
+    right: 250px;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+.link{
+    position: relative;
+    bottom: 150px;
+}
+.contact{
+    position: relative;
+    left: 900px;
+    bottom: 190px;
+    
+}
+
+.a{
+    position: relative;
+    left: 900px;
+    bottom: 200px;
+}
+
+.top{
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    color:none;
+    cursor: pointer;
+    
+}
+.copy{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    text-align: left;
+    right: 0px;
+    left: 0px;
+}
+
+
+@media screen and (max-width:1020px){
+    .para{
+        width:800px;
+    }
+}
+@media screen and (max-width:810px){
+    .para{
+        width:500px;
+    }
+}
+@media screen and (max-width:510px){
+    .para{
+        width:auto;
+    }
+}
+
+
